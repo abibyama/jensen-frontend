@@ -1,31 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="styelsheet" href="main.css">
-    <title>Jensen-Frontend</title>
+  <meta charset="UTF-8">
+  <title>Cookie Constent Box | CodingNepal</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form method="post">
-        <div class="frc-captcha" data-sitekey="FCMHJ1TC4AEH8FM7"></div>
-        Username:<br>
-        <input id="user" type="text" name="user" placeholder="user" required><br><br>
-        Password:<br>
-        <input id="password" type="password" name="password" placeholder="password" required><br><br>
-        <input type="submit" value="login">
-    </form>
-
-    <div id="consent-popup" class="hidden">
-        <p>By using this site you agree to our <a href="#">Terms and Conditions</a>. <br>
-            Please <a id="accept" href="#">Accept</a> these before using the site.
-        </p>
+  <h1>Log in</h1>
+  <div id="container">
+  <form method="post">
+    Username:<br>
+    <input id="user" type="text" name="user" placeholder="user" required><br><br>
+    Password:<br>
+    <input id="password" type="password" name="password" placeholder="password" required><br><br>
+    <input type="submit" value="login">
+    <div class="frc-captcha" data-sitekey="FCMHJ1TC4AEH8FM7"></div>
+  </form>
+  </div>
+  <div class="wrapper">
+    <img src="cookie.png" alt="">
+    <div class="content">
+      <header>Cookies Consent</header>
+      <p>This website use cookies to ensure you get the best experience on our website.</p>
+      <div class="buttons">
+        <button class="item">I understand</button>
+        <a href="#" class="item">Learn more</a>
+      </div>
     </div>
+  </div>
 
-    <script src="app.js"></script>
-    <script type="module" src="https://unpkg.com/friendly-challenge@0.9.0/widget.module.min.js" async defer></script>
+</div>
+
+<script src="app.js"></script>
+<script type="module" src="https://unpkg.com/friendly-challenge@0.9.0/widget.module.min.js" async defer></script>
 <script nomodule src="https://unpkg.com/friendly-challenge@0.9.0/widget.min.js" async defer></script>
+
 </body>
 </html>
 
