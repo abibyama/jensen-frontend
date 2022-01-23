@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\jensen-backend"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "jensen-frontend"
+	}
+}
